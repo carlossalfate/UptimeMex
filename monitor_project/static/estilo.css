@@ -1,0 +1,76 @@
+
+
+.dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.status-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.status-circle.green {
+    background-color: green;
+    color: white;
+}
+
+.status-circle.red {
+    background-color: red;
+    color: rgb(255, 255, 255);
+}
+
+/* Estilos para los velocímetros */
+.rectangulo {
+    border: 2px solid #ddd;
+    border-radius:8px;
+    background-color:#f9f9f9;
+    padding:20ps;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.velocimetro {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.grafico1 {
+    padding: 50%;
+}
+
+/* Estilos para el texto de la cantidad de módulos */
+#cantidadModulos {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.modulos-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; /* Ajusta el margen según lo necesites */
+}
+
+.modulos-encendidos,
+.modulos-apagados {
+    flex: 1;
+    padding: 0 10px; /* Ajusta el espaciado lateral según lo necesites */
+}
+
+ul {
+    list-style: none; /* Quita los marcadores de lista */
+    padding-left: 0; /* Elimina el relleno lateral de la lista */
+}
